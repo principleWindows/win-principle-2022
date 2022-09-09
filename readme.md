@@ -32,7 +32,7 @@ Instructor: Professor Jicheng Hu
 ## Index
 
 0. [Introduction](#introduction)
-1. [Visual Studio](#visual-studio)
+1. [Visual Studio 2022 Community](#visual-studio-2022-community)
 2. [git, github and gitee](#git-github-and-gitee)
 3. [WSL](#wsl)
 4. [Course Lab](#course-lab)
@@ -87,9 +87,9 @@ slides and resource for the course "principle of windows and its applications"
 [Back to index](#index)
 
 
-## 1 Visual Studio
+## 1 Visual Studio 2022 Community
 
-### 1.1 Installation of VS
+### 1.1 Installation of VS 2022 Community
 
 ### [1.2 Choice of Front-end Frameworks](appendix/front-end.md)
 
@@ -168,7 +168,7 @@ pull request
 ### 4.2 tools
 
 *  DUMPBIN \
-https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=vs-2019
+https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=vs-2022
 \
 https://www.cnblogs.com/zhaotianff/p/10637397.html
 

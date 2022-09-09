@@ -32,7 +32,7 @@ Instructor: Professor Jicheng Hu \
 
 
 0. [Introduction](#introduction)
-1. [Visual Studio](#visual-studio)
+1. [Visual Studio 2022 Community](#visual-studio-2022-community)
 2. [git, github and gitee](#git-github-and-gitee)
 3. [WSL](#wsl)
 4. [Course Lab](#course-lab)
@@ -87,9 +87,9 @@ slides and resource for the course "principle of windows and its applications"
 [返回目录](#index)
 
 
-## 1 Visual Studio 2019 Community
+## 1 Visual Studio 2022 Community
 
-### 1.1 Installation of VS 2019 Community
+### 1.1 Installation of VS 2022 Community
 
 ### [1.2 Choice of Front-end Frameworks](appendix/front-end.md)
 
