@@ -11,19 +11,22 @@ Read [English Version](labs.md)
 ## 实验准备 (课前需做) 
 
 **课前必做** :
-1. 安装 Visual Studio Community 2019 及相关插件, 参见教学幻灯片
+1. 安装 Visual Studio Community 2022 及相关插件, 参见教学幻灯片
 
-2. 将电脑 win10 升级到最新版本 ( **由于实验室的电脑安装 VS2019 非常费时**, 
-**请大家尽量自带笔记本电脑并先行升级 win10** )
+2. 将电脑 Windows 11 升级到最新版本 ( **由于实验室的电脑安装 VS2022 非常费时**, 
+**请大家尽量自带笔记本电脑并先行升级 win11** )
 
-Windows 应用开发环境安装参见 [Install tools for Windows app development](https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=stable#4-install-the-windows-app-sdk-extension-for-visual-studio)
+Windows 应用开发环境安装参见 [Install tools for Windows app development](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/set-up-your-development-environment)
 
 ## 1 [实验一](lab_1/lab_1_cn.md)
 
 本次课教学目标：
-1. Introduction to the C#/C++ framework example codes: wpfTest2020
-2. How to create C++/winRT applications
-3. Cache line and multithreads performance
+1. Introduction to the C#/C++ framework example codes: wpfTest
+2. How to create C++/winUI3 desktop applications
+3. How to create C#/winUI3 desktop applications
+4. How to create Python application
+5. Cache line and multithreads performance
+
 
 ## 2 [实验二](lab_2/lab_2_cn.md)
 

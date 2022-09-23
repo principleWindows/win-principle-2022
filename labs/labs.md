@@ -11,22 +11,25 @@ There are three laboratories in this course, with 4 class hours in each lab.
 
 ## LAB PREREQUISITES (Pre-Class Requirements) 
 
-Due Before Class Begins ( **课前必做** ):
-1. Install Visual Studio Community 2019 and corresponding extensions.
+Due Before Lab Class Begins ( **课前必做** ):
+1. Install Visual Studio Community 2022 and corresponding extensions.
 Please refer to the Instruction Slides.
 
-2. Upgrade your computer win10 to the most newest version.
+2. Upgrade your computer Windows 11 to the most newest version.
 
 To set up your Windows app devlopement environment please refer to
-[Install tools for Windows app development](https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=stable#4-install-the-windows-app-sdk-extension-for-visual-studio)
+[Install tools for Windows app development](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/set-up-your-development-environment)
 
 
 ## 1 [Lab One](lab_1/lab_1.md)
 
 Targets of this class:
 1. Introduction to the C#/C++ framework example codes: wpfTest
-2. How to create C#/C++ applications
-3. Cache line and multithreads performance
+2. How to create C++/winUI3 desktop applications
+3. How to create C#/winUI3 desktop applications
+4. How to create a Python application
+5. Cache line and multithreads performance
+
 
 ## 2 [Lab Two](lab_2/lab_2.md)
 
