@@ -1,13 +1,17 @@
-# wpfTest 概述
+# Lab 1: Introduction to wpfTest Framework codes for Lab classes
+
+转到 [中文版](lab_1_1_cn.md)
 
 
-## 1 浏览 wpfTest 的代码，熟悉框架结构
+## 1 Surf the codes of wpfTest framework architecture
 
-用如下命令下载代码
+Download the sourcecodes via the following git command in Windows PowerShell:
 ```batch
 git clone https://gitee.com/principlewindows/wpfTest.git
 ```
 
-## 2 熟悉WPF窗体应用程序创建流程
+## 2 Summarize the procedure to create a WPF application
 
-掌握基本控件如 button, label, textbox, listbox, dataGrid, combox 的用法
+1. Create a WPF application in Visual Studio 2022 Community
+2. Add some common controls: button, label, textbox, listbox, dataGrid and combox, 
+to the application

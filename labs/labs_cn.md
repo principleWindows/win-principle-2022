@@ -25,7 +25,6 @@ Windows 应用开发环境安装参见 [Install tools for Windows app development](https:/
 2. How to create C++/winUI3 desktop applications
 3. How to create C#/winUI3 desktop applications
 4. How to create Python application
-5. Cache line and multithreads performance
 
 
 ## 2 [实验二](lab_2/lab_2_cn.md)

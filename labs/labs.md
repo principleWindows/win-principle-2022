@@ -28,7 +28,6 @@ Targets of this class:
 2. How to create C++/winUI3 desktop applications
 3. How to create C#/winUI3 desktop applications
 4. How to create a Python application
-5. Cache line and multithreads performance
 
 
 ## 2 [Lab Two](lab_2/lab_2.md)

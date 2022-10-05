@@ -1,21 +1,32 @@
-# Create blank windows applications
+# Lab 2: Create windows applications
 
+转到 [中文版](lab_1_2_cn.md)
+
+**refs:**
 - <https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app>
 - <https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/simple-winui-example>
+- <https://learn.microsoft.com/en-us/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-00-installation>
 
 ***
 
-In this experiment we are going to create several types of blank desktop applications on 
-the Windows 11 platform:
-- a blank C# / WinUI 3 desktop application
-- a blank C++ / WinUI 3 desktop application
-- a blank python application
+In this experiment we are going to create several types of desktop applications on 
+the Windows 11 platform, by using Visual Studio Community 2022 64-bit version:
+- a C# / WinUI 3 desktop application
+- a C++ / WinUI 3 desktop application
+- a python application
+
+## Index
+
+0. [Prerequisites](#prerequisites)
+1. [Create a C++/WinUI3 application](#create_cpp_winui3_app)
+2. [Create a C#/WinUI3 application](#create_cs_winui3_app)
+3. [Create a Python project](#create_python_proj)\
+    [3.0 Install Python support](#3_0_install_python_support)\
+    [3.1 Create a new Python project](#3_1_create_new_python_project)\
+    [3.2 Write and run](#3_2_write_and_run_code)
 
 
-## 0 Experiment requirements of software environment
-
-
-## 1 Steps to create a C++/WinUI3 application
+## 0 Prerequisites
 
 1. Download and run the latest *installer* for the Windows App SDK from [Downloads for the Windows 
 App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads).
@@ -25,14 +36,19 @@ appropriate for the architecture of the target device.
 > If you don't have the VCRedist installed on the target device, then dynamic links to 
 `c:\windows\system32\vcruntime140.dll` fail.
 
-3. In Visual Studio, select File > New > Project.
+[Back to index](#index)
 
-4. In the New Project dialog's drop-down filters, select C++, Windows, and WinUI, respectively.
 
-5. You need to start with an MSIX-packaged project in order to use XAML diagnostics. So select 
+## 1 Create a C++/WinUI3 application <span id="create_cpp_winui3_app"></span>
+
+1. In Visual Studio, select File > New > Project.
+
+2. In the New Project dialog's drop-down filters, select C++, Windows, and WinUI, respectively.
+
+3. You need to start with an MSIX-packaged project in order to use XAML diagnostics. So select 
 the **Blank App, Packaged (WinUI 3 in Desktop)** project template, and click Next.
 
-6. Add the following two properties to your project file with extension .vcxproj. Put it inside the 
+4. Add the following two properties to your project file with extension .vcxproj. Put it inside the 
 PropertyGroup element that's already there:
 ```xml
 <Project ...>
@@ -47,19 +63,20 @@ PropertyGroup element that's already there:
 </Project>
 ```
 
-7. Build and run.
- 
+5. Build and run.
+
+[Back to index](#index)
 
 
-## 2 Steps to create a C#/WinUI3 application
+## 2 Create a C#/WinUI3 application <span id="create_cs_winui3_app"></span>
 
-Steps 1 through 3 are just the same as in the previous section. 
+Steps 1 is just the same as in the previous section. 
 
-4. In the New Project dialog's drop-down filters, select C#, Windows, and WinUI, respectively.
+2. In the New Project dialog's drop-down filters, select C#, Windows, and WinUI, respectively.
 
-Step 5 is the same as the one in the previous section
+Step 3 is the same as the one in the previous section
 
-6. Add the following property to your project file with extension .csproj. Put it inside the 
+4. Add the following property to your project file with extension .csproj. Put it inside the 
 PropertyGroup element that's already there:
 ```xml
 <Project ...>
@@ -72,62 +89,64 @@ PropertyGroup element that's already there:
 </Project>
 ```
 
-7. To start a C# app from Visual Studio (either Debugging or Without Debugging), select the 
+5. To start a C# app from Visual Studio (either Debugging or Without Debugging), select the 
 Unpackaged launch profile from the Start drop-down. If the Package profile is selected, then 
 you'll see a deployment error in Visual Studio. This step isn't necessary if you start the 
 application (.exe) from the command line or from Windows File Explorer.
 
 ![Select the package type](pix/package_type.PNG)
 
-8. Build and run.
+6. Build and run.
+
+[Back to index](#index)
 
 
-本文介绍如何在 VS 中生成一个空的应用程序。下面以 Visual Studio 2019 Preview Community
-为例子介绍整个过程, VS 2017 和 VS 2019 的其它版本可参考进行。
+## 3. Create a Python project <span id="create_python_proj"></span>
 
-1. 打开 Visual Studio 2019 Community (点击 continue without codes)(或者直接点击Create a new project跳到第三步)
 
-![open VS](pix/splashVS.PNG)
+### 3.0 Install Python support <span id="3_0_install_python_support"></span>
 
-2. 点击 File -> new -> Project
+1. Open Visual Studio and run the installer by selecting `Tools` > `Get Tools and Features`.
 
-![new project](pix/newProject.PNG)
+2. Select the `Python development workload` and select **Install**
 
-3. 在 Create a new project 对话框的右上下拉选择菜单种分别选择 [c++], 
-[Windows], [WinUI], 再在出现的项目类型中选择 "App (WinUI 3 in Desktop)"
-后点击 Next
+3. To quickly test Python support, launch Visual Studio, press Alt+I to open the Python 
+Interactive window, and enter `2+2`. If you don't see the output of 4, recheck your steps.
 
-![create a new project](pix/createApp.PNG)
+[Back to index](#index)
 
-上面的应用程序类型可根据需要选择其它项目类型。
 
-4. 填写欲创建的工程名称、存放位置及解决方案名称后点击 Create 按钮
+### 3.1 Create a new Python project <span id="3_1_create_new_python_project"></span>
 
-![Config the new project](pix/configProject.PNG)
+1. In Visual Studio, select `File` > `New` > `Project` or press `Ctrl+Shift+N`. The Create a 
+new project screen displays, where you can search and browse templates across different languages.
 
-5. 选择缺省的参数后点击 Create
+2. In the New Project dialog's drop-down filters, select Python language.
+![new python project](pix/new_python_proj.png)
 
-![Select the target platform](pix/choosePlatform.PNG)
+3. Select the Python Application, and select `Next`.
 
-6. 然后等待...
+4. On the `Configure your new project` screen, specify a name and file location for the project, 
+and then select **Create**.
 
-![Creating project](pix/creating.PNG)
+[Back to index](#index)
 
-7. 最终生成应用程序工程
 
-![the generated project](pix/projectGenerated.PNG)
 
-8. 选择 active solution platform 为 x64
+### 3.2 Coding and run <span id="3_2_write_and_run_code"></span>
 
-![config active solution platform to be x64](pix/activeSolutionPlatform.PNG)
+1. 上面所创建的空文件 `HelloWorld_python.py` 会自动在 Visual Studio 编辑器中打开。
 
-9. 右键点击项目名称后在弹出的菜单里选择 build 开始生成该项目的应用
+2. 在编辑器中，键入 print("Hello, World!")
 
-![build the project](pix/buildProject.PNG)
+3. 快捷键 `F5` 或 `Ctrl+F5`，也可以选择 `Debug` > `Start Debugging` 或 `Start without Debugging` 菜单项，
+运行上面所编写的代码。 如果代码中存在错误，Visual Studio 会发出警告。
 
-10. 按快捷键 F5 可调试运行该程序
+4. 控制台窗口将显示结果
+```shell
+Hello, World!
+Press any key to continue . . .
+```
 
-![Press shortcut F5 to run](pix/runDebug.PNG)
-
-第一次运行会比较慢，请耐心等待。
+[Back to index](#index)
 
