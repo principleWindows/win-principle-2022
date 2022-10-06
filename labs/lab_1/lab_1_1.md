@@ -1,6 +1,6 @@
 # Lab 1: Introduction to wpfTest Framework codes for Lab classes
 
-转到 [中文版](lab_1_1_cn.md)
+杞埌 [涓枃鐗圿(lab_1_1_cn.md)
 
 
 ## 1 Surf the codes of wpfTest framework architecture
