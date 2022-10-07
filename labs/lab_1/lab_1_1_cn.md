@@ -18,6 +18,7 @@ git clone https://gitee.com/principlewindows/wpfTest.git
 
 - 如何创建远程仓库，以 gitee 举例
 - 如何生成 commit 及提交到远程仓库
+    - 同步提交到 gitee 和 github 的方法参见 <https://gitee.com/principlewindows/gitMem>
 - 如何设置 git 的外部 difftool 
     - 方法一：<https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration>
     \

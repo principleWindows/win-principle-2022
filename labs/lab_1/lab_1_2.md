@@ -94,7 +94,7 @@ Unpackaged launch profile from the Start drop-down. If the Package profile is se
 you'll see a deployment error in Visual Studio. This step isn't necessary if you start the 
 application (.exe) from the command line or from Windows File Explorer.
 
-![Select the package type](pix/package_type.PNG)
+![Select the package type](pix/package_type.png)
 
 6. Build and run.
 
@@ -135,11 +135,13 @@ and then select **Create**.
 
 ### 3.2 Coding and run <span id="3_2_write_and_run_code"></span>
 
-1. 上面所创建的空文件 `HelloWorld_python.py` 会自动在 Visual Studio 编辑器中打开。
+1. The empty file `HelloWorld_python.py` created above will be automatically opened
+in an editor window in Visual Studio.
 
-2. 在编辑器中，键入 print("Hello, World!")
+2. In the editor window，input: print("Hello, World!")
 
-3. 快捷键 `F5` 或 `Ctrl+F5`，也可以选择 `Debug` > `Start Debugging` 或 `Start without Debugging` 菜单项，
+3. Press shortcuts key `F5` or `Ctrl+F5`，or choose the menu item `Debug` > `Start Debugging` 
+or `Start without Debugging`，
 运行上面所编写的代码。 如果代码中存在错误，Visual Studio 会发出警告。
 
 4. 控制台窗口将显示结果

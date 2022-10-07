@@ -147,7 +147,7 @@ options > Environment > General > Color Theme 设置为 Dark
 选取 unpackaged 加载配置文件。如果选取 Package 配置文件，则会在 Visual Studio 中出现部署错误。
 如果你通过命令行或者 Windows 文件浏览器来启动应用程序 (.exe) 则这一步可以省略。
 
-![Select the package type](pix/package_type.PNG)
+![Select the package type](pix/package_type.png)
 
 6. 生成项目并运行。
 
