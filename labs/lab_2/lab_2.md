@@ -1,8 +1,14 @@
-# LAB TWO
+# The Second Lab Class
 
 阅读[中文版](lab_2_cn.md)
 
 ***
+
+Objectives of this class:
+1. InterProcess Communication in wpfTest
+2. How to create Windows applications (Example C++/winUI)
+3. Cache line and multithreads performance
+
 
 **补做实验：**
 

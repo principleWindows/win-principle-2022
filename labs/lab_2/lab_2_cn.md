@@ -1,8 +1,14 @@
-# 实验二
+# 第二次实验课
 
 Read [English Version](lab_2.md)
 
 ***
+
+
+本次课实验目的：
+1. 实验课框架代码 wpfTest 介绍
+2. 如何生成 Windows 应用程序 (例子 C++/winUI3, C#/winUI3, Python)
+
 
 **补做实验：**
 

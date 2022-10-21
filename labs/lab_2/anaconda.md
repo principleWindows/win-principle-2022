@@ -12,19 +12,22 @@
 
 ## 0 Why anaconda?
 
-ÏÈÀ´½â¾öÒ»¸ö³õÑ§Õß¶¼»áÎÊµÄÎÊÌâ£ºÎÒÒÑ¾­°²×°ÁË Python£¬ÄÇÃ´ÎªÊ²Ã´»¹ÐèÒª Anaconda ÄØ£¿Ô­ÒòÓÐÒÔÏÂ¼¸µã£º
+ÏÈÀ´½â¾öÒ»¸öÒÉÎÊ£ºÎÒÒÑ¾­ÔÚ Visual Studio ÖÐ°²×°ÁË Python ¿ª·¢¸ºÔØ£¬ÄÇÃ´ÎªÊ²Ã´»¹ÐèÒª Anaconda 
+ÄØ£¿Ô­ÒòÓÐÒÔÏÂ¼¸µã£º
 
-1. Anaconda ¸½´øÁËÒ»´óÅú³£ÓÃÊý¾Ý¿ÆÑ§°ü£¬Ëü¸½´øÁË conda¡¢Python ºÍ 150 ¶à¸ö¿ÆÑ§°ü¼°ÆäÒÀÀµÏî¡£Òò´ËÄã¿ÉÒÔÓÃ 
-Anaconda Á¢¼´¿ªÊ¼´¦ÀíÊý¾Ý¡£
+1. **¹¤¾ß·á¸»** \
+Anaconda ¸½´øÁËÒ»´óÅú³£ÓÃÊý¾Ý¿ÆÑ§°ü£¬°üÀ¨ conda¡¢Python ºÍ 150 ¶à¸ö¿ÆÑ§°ü¼°ÆäÒÀÀµÏî¡£Òò´ËÄã¿ÉÒÔÓÃ 
+Anaconda Á¢¼´¿ªÊ¼½øÐÐÊý¾Ý´¦Àí¡£
 
-2. ¹ÜÀí°ü¡£\
+2. **¹ÜÀí°ü** \
 Anaconda ÊÇÔÚ conda (Ò»¸ö°ü¹ÜÀíÆ÷ºÍ»·¾³¹ÜÀíÆ÷)ÉÏ·¢Õ¹³öÀ´µÄ¡£ÔÚÊý¾Ý·ÖÎöÖÐ£¬Äã»áÓÃµ½ºÜ¶àµÚÈý·½µÄ°ü£¬¶ø 
-conda(°ü¹ÜÀíÆ÷)¿ÉÒÔºÜºÃµÄ°ïÖúÄãÔÚ¼ÆËã»úÉÏ°²×°ºÍ¹ÜÀíÕâÐ©°ü£¬°üÀ¨°²×°¡¢Ð¶ÔØºÍ¸üÐÂ°ü¡£
+conda (°ü¹ÜÀíÆ÷)¿ÉÒÔºÜºÃµÄ°ïÖúÄãÔÚ¼ÆËã»úÉÏ°²×°ºÍ¹ÜÀíÕâÐ©°ü£¬°üÀ¨°²×°¡¢Ð¶ÔØºÍ¸üÐÂ°ü¡£
 
-3. ¹ÜÀí»·¾³¡£\
-ÎªÊ²Ã´ÐèÒª¹ÜÀí»·¾³ÄØ£¿±ÈÈçÄãÔÚ A ÏîÄ¿ÖÐÓÃµ½ÁË Python2£¬¶øÐÂµÄÏîÄ¿ÒªÇóÊ¹ÓÃ Python3£¬¶øÍ¬Ê±°²×°Á½¸ö Python 
-°æ±¾¿ÉÄÜ»áÔì³ÉÐí¶à»ìÂÒºÍ´íÎó¡£ÕâÊ±ºò conda ¾Í¿ÉÒÔ°ïÖúÄãÎª²»Í¬µÄÏîÄ¿½¨Á¢²»Í¬µÄÔËÐÐ»·¾³¡£»¹ÓÐºÜ¶àÏîÄ¿Ê¹ÓÃµÄ°ü°æ±¾²»Í¬£¬
-±ÈÈç²»Í¬µÄ pandas °æ±¾£¬²»¿ÉÄÜÍ¬Ê±°²×°Á½¸ö pandas °æ±¾¡£ÄãÒª×öµÄÓ¦¸ÃÊÇÔÚÏîÄ¿¶ÔÓ¦µÄ»·¾³ÖÐ´´½¨¶ÔÓ¦µÄ pandas 
+3. **¹ÜÀí»·¾³** 
+    - Ê¹ÓÃ²»Í¬µÄ°ü£º±ÈÈçÓÐµÄÏîÄ¿ÖÐÒªÓÃµ½ pytorch »·¾³£¬ÓÐµÄÔò²»ÐèÒªÕâ¸öÅÓ´óµÄ°ü´Ó¶øÎÞÐè¼ÓÔØ¸Ã°ü£»
+    - Ê¹ÓÃ°üµÄ²»Í¬µÄ°æ±¾£º±ÈÈçÔÚ A ÏîÄ¿ÖÐÓÃµ½ÁË Python2£¬¶øÐÂÏîÄ¿ÒªÇóÊ¹ÓÃ Python3£¬¶øÍ¬Ê±°²×°Á½¸ö Python 
+°æ±¾¿ÉÄÜ»áÔì³ÉÐí¶à»ìÂÒºÍ´íÎó¡£ÕâÊ±ºò conda ¾Í¿ÉÒÔ°ïÖúÄãÎª²»Í¬µÄÏîÄ¿½¨Á¢²»Í¬µÄÔËÐÐ»·¾³¡£»¹±ÈÈç²»Í¬µÄ 
+pandas °æ±¾£¬²»¿ÉÄÜÍ¬Ê±°²×°Á½¸ö pandas °æ±¾¡£ÄãÒª×öµÄÓ¦¸ÃÊÇÔÚÏîÄ¿¶ÔÓ¦µÄ»·¾³ÖÐ´´½¨¶ÔÓ¦µÄ pandas 
 °æ±¾¡£ÕâÊ±ºò conda ¾Í¿ÉÒÔ°ïÄã×öµ½¡£
 
 [Back to index](#index)
@@ -32,7 +35,8 @@ conda(°ü¹ÜÀíÆ÷)¿ÉÒÔºÜºÃµÄ°ïÖúÄãÔÚ¼ÆËã»úÉÏ°²×°ºÍ¹ÜÀíÕâÐ©°ü£¬°üÀ¨°²×°¡¢Ð¶ÔØºÍ¸üÐÂ°
 
 ## 2 Installation
 
-µ½ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ ÏÂÔØ°²×°¡£
+µ½ https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ ÏÂÔØ
+Anaconda3-2022.05-Windows-x86_64.exe ²¢°²×°¡£
 
 ### 2.1 config environment variables
 
@@ -45,9 +49,11 @@ conda(°ü¹ÜÀíÆ÷)¿ÉÒÔºÜºÃµÄ°ïÖúÄãÔÚ¼ÆËã»úÉÏ°²×°ºÍ¹ÜÀíÕâÐ©°ü£¬°üÀ¨°²×°¡¢Ð¶ÔØºÍ¸üÐÂ°
 
 ### 2.2 ÉèÖÃ¾µÏñÕ¾µã
 
-Ê¹ÓÃ conda install °üÃû °²×°ÐèÒªµÄ Python ·Ç³£·½±ã£¬µ«ÊÇ¹Ù·½µÄ·þÎñÆ÷ÔÚ¹úÍâ£¬Òò´ËÏÂÔØËÙ¶ÈºÜÂý¡£¹úÄÚÇå»ª´óÑ§Ìá¹©ÁË 
-Anaconda µÄ²Ö¿â¾µÏñ£¬ÎÒÃÇÖ»ÐèÒªÅäÖÃ Anaconda µÄÅäÖÃÎÄ¼þ£¬Ìí¼ÓÇå»ªµÄ¾µÏñÔ´£¬È»ºó½«ÆäÉèÖÃÎªµÚÒ»ËÑË÷ÇþµÀ¼´¿É¡£cmd 
-ÃüÁîÐÐÏÂ·Ö±ðÖ´ÐÐÒÔÏÂÃüÁî£º
+Ê¹ÓÃ conda install °üÃû À´°²×°ÐèÒªµÄ Python 
+·Ç³£·½±ã£¬µ«ÊÇ¹Ù·½µÄ·þÎñÆ÷ÔÚ¹úÍâ£¬Òò´ËÏÂÔØËÙ¶ÈºÜÂý¡£¹úÄÚÇå»ª´óÑ§Ìá¹©ÁË 
+Anaconda µÄ²Ö¿â¾µÏñ£¬ÎÒÃÇÖ»ÐèÒªÅäÖÃ Anaconda 
+µÄÅäÖÃÎÄ¼þ£¬Ìí¼ÓÇå»ªµÄ¾µÏñÔ´£¬È»ºó½«ÆäÉèÖÃÎªµÚÒ»ËÑË÷ÇþµÀ¼´¿É¡£cmd 
+»ò powershell ÃüÁîÐÐÏÂ·Ö±ðÖ´ÐÐÒÔÏÂÃüÁî£º
 ```batch
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --set show_channel_urls yes

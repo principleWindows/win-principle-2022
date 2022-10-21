@@ -1,6 +1,7 @@
 # Python environments
 
-- [How to create and manage Python environments in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/python/managing-python-environments-in-visual-studio)
+- [How to create and manage Python environments in Visual Studio](
+https://learn.microsoft.com/en-us/visualstudio/python/managing-python-environments-in-visual-studio)
 
 *****************************
 
