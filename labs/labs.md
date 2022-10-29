@@ -30,12 +30,12 @@ Targets of this class:
 4. How to create a Python application
 
 
-## 2 [Lab Two](lab_2/lab_2.md)
+## 2 [Lab Two](lab_2/lab_2_cn.md)
 
 Misson of this class:
-1. Enumerating Registry Subkeys
-2. Deleting a Key with Subkeys
-3. Determining the Registry Size 
+1. Process and processes communication
+2. Thread and threads communication
+
 
 ## 3 [Lab Three](lab_3/lab_3.md)
 
