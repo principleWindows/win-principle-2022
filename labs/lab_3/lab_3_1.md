@@ -1,7 +1,9 @@
 # 3.1 Create Unmanaged Dynamic Link Library
 
+[ÖÐÎÄ°æ](lab_3_1_cn.md)
+
 This walkthrough experiement is adapted from:
-* [ref 1](https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
+* [ref 1](https://learn.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 * [ref 2](https://www.cnblogs.com/94cool/p/5772376.html)
 
 ***
@@ -9,11 +11,11 @@ This walkthrough experiement is adapted from:
 ## PART ONE: Create the C++ unmanaged DLL
 
 In this set of experiements, we will create a project for the C++ unmanaged DLL, 
-add code, and build it. To begin, start the Visual Studio 2019 and sign in 
+add code, and build it. To begin, start the Visual Studio 2022 Community version and sign in 
 with your WHU university accademic account. The procedures vary slightly depending on which 
 version of Visual Studio you're using. 
 
-### 1.1 To create a DLL project in Visual Studio 2019
+### 1.1 To create a DLL project in Visual Studio 2022
 
 1. On the menu bar, choose File > New > Project to open the Create a New Project dialog box.
 
@@ -104,11 +106,11 @@ header file in the previous step.
 
 ![add implementing file](pix/add_implementing.png)
 
-2. In the editor window, select the tab for CreateDLL.cpp if it's already open. If not, 
-in Solution Explorer, double-click CreateDLL.cpp in the Source Files folder of the 
+2. In the editor window, select the tab for `CreateDLL.cpp` if it's already open. If not, 
+in Solution Explorer, double-click `CreateDLL.cpp` in the Source Files folder of the 
 CreateDLL project to open it.
 
-3. In the editor, replace the contents of the CreateDLL.cpp file with the following code:
+3. In the editor, replace the contents of the `CreateDLL.cpp` file with the following code:
 
 ```cpp
 // CreateDLL.cpp : Defines the exported functions for the DLL.
@@ -148,8 +150,6 @@ Build started...
 1>VSAPPIDNAME                    = devenv.exe
 1>VSSKUEDITION                   = Community
 1>windir                         = C:\WINDOWS
-1>WIRESHARK_CYGWIN_INSTALL_PATH  = D:\cygwin64
-1>WIRESHARK_LIB_DIR              = E:\teaching\networkDistributed\lab\wireshark-win64-libs-3.0
 1>pch.cpp
 1>CreateDLL.cpp
 1>dllmain.cpp
@@ -203,13 +203,13 @@ the `Solution Explorer` window in Visual Studio.
 ![](pix/add_class_cs.png)
 
 2. Select `Visual C# Items` and choose `Class`, and input the `Name` of the Edit Box 
-with `DllTest.cs`. Click the `Add` button to create a mew .cs file called 
+with `DllTest.cs`. Click the `Add` button to create a new .cs file called 
 `DllTest.cs` added to the project.
 
 ![](pix/add_class.png)
 
 3. In the editor window, select the tab for `DllTest.cs` if it's already opened. If not, 
-in the Solution Explorer`, double-click `DllTest.cs` in the Source Files folder to 
+in the `Solution Explorer`, double-click `DllTest.cs` in the Source Files folder to 
 open it.
 
 4. In the editor, replace the contents of `DllTest.cs` with the following codes:
@@ -243,7 +243,7 @@ namespace TestDLL
 
 ### 2.3 Use the declared functions
 
-You can now use the functions declared in [the last step](#to-add-a-c-class-to-declare-functions-of-the-imported-dll).
+You can now use the functions declared in [the previous step](#to-add-a-c-class-to-declare-functions-of-the-imported-dll).
 Replace the contents of `Program.cs` by using the following codes:
 
 ```csharp

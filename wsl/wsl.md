@@ -150,6 +150,81 @@ https://docs.microsoft.com/en-us/windows/wsl/basic-commands
 ************************************
 
 
+### 4.1 Commands in PowerShell
+
+1. Update WSL
+```batch
+wsl --update
+```
+
+2. Check WSL status
+```batch
+PS C:\Users\jiche> wsl --status
+默认分发: Ubuntu
+默认版本: 2
+```
+
+### 4.2 Commands in WSL
+
+```batch
+PS C:\Users\jiche> wsl
+jicheng@gpuPower:/mnt/c/Users/jiche$ cat /proc/version
+Linux version 5.15.68.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 9.3.0, GNU ld (GNU Binutils) 2.34.0.20200220) #1 SMP Mon Sep 19 19:14:52 UTC 2022
+jicheng@gpuPower:/mnt/c/Users/jiche$ uname -srm
+Linux 5.15.68.1-microsoft-standard-WSL2 x86_64
+jicheng@gpuPower:/mnt/c/Users/jiche$ sudo apt update
+[sudo] password for jicheng:
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [864 B]
+Fetched 10.4 MB in 17s (626 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+148 packages can be upgraded. Run 'apt list --upgradable' to see them.
+jicheng@gpuPower:/mnt/c/Users/jiche$
+```
+
+```batch
+sudo apt install binutils
+objdump -T /lib/libmpathcmd.so
+
+/lib/libmpathcmd.so:     file format elf64-x86-64
+
+DYNAMIC SYMBOL TABLE:\
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 free
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 recv
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 __errno_location
+0000000000000000  w   D  *UND*  0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 fcntl
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 strlen
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.4   __stack_chk_fail
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 send
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 close
+0000000000000000  w   D  *UND*  0000000000000000              __gmon_start__
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 malloc
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 poll
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 connect
+0000000000000000  w   DF *UND*  0000000000000000  GLIBC_2.2.5 __cxa_finalize
+0000000000000000      DF *UND*  0000000000000000  GLIBC_2.2.5 socket
+0000000000001590 g    DF .text  0000000000000009  Base        mpath_disconnect
+00000000000017a0 g    DF .text  000000000000003b  Base        mpath_process_cmd
+0000000000001680 g    DF .text  0000000000000076  Base        mpath_recv_reply
+0000000000001580 g    DF .text  000000000000000b  Base        mpath_connect
+0000000000001630 g    DF .text  0000000000000042  Base        mpath_recv_reply_data
+0000000000001700 g    DF .text  000000000000009c  Base        mpath_send_cmd
+0000000000001410 g    DF .text  000000000000016c  Base        __mpath_connect
+00000000000015a0 g    DF .text  000000000000008d  Base        mpath_recv_reply_len
+```batch
+
+Developer PowerShell for VS 2022
+```batch
+D:\teaching\principleWindows\gitRepos\wpfTest\Dll
+dumpbin -exports ChineseConverter.dll
+C:\Windows\System32>dumpbin -exports msfeeds.dll
+```
+
 [Back to index](#index)
 
 

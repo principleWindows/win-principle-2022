@@ -30,9 +30,8 @@ Windows 应用开发环境安装参见 [Install tools for Windows app development](https:/
 ## 2 [实验二](lab_2/lab_2_cn.md)
 
 Misson of this class:
-1. Enumerating Registry Subkeys
-2. Deleting a Key with Subkeys
-3. Determining the Registry Size 
+1. Process and processes communication
+2. Thread and threads communication
 
 ## 3 [实验三](lab_3/lab_3_cn.md)
 
